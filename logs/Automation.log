@@ -1,0 +1,231 @@
+11:03:41.859 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Started **********************
+11:03:42.318 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:03:42.319 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: create an user 
+----------------------------------------------------------------------(src/test/resources/features/Create_User_And_Validate.feature; create an user
+11:03:58.283 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:04:03.870 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:04:05.310 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:04:06.958 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test009
+11:04:28.937 [main] INFO  com.Orange.Utilities.CustomListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+TEST FAILED: create an user 
+----------------------------------------------------------------------
+11:04:28.937 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:04:29.145 [main] INFO  com.Orange.StepDefinitions.Hooks - Screenshot is attached to the report
+11:04:29.449 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:04:29.470 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:47, Result:FAILED, Feature:features/Create_User_And_Validate.feature, StartTime:2024-07-06T11:03:42.111+05:30[Asia/Calcutta], TestFailedStep:11, TestFailedStepLine:created a new user with below details:, FailureCause:org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-autocomplete-wrapper']/div[2]/div[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28ac24af171dc38a1177773cc7e7ee06, findElement {value=//div[@class='oxd-autocomplete-wrapper']/div[2]/div[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\vamsi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54361/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28ac24af171dc38a1177773cc7e7ee06
+11:04:29.510 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:04:29.511 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: sing-in with a newly create user 
+----------------------------------------------------------------------(src/test/resources/features/Create_User_And_Validate.feature; sing-in with a newly create user
+11:04:40.359 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:04:41.511 [main] INFO  com.Orange.Utilities.CustomListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+TEST FAILED: sing-in with a newly create user 
+----------------------------------------------------------------------
+11:04:41.512 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:04:41.853 [main] INFO  com.Orange.StepDefinitions.Hooks - Screenshot is attached to the report
+11:04:42.104 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:04:42.105 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:12, Result:FAILED, Feature:features/Create_User_And_Validate.feature, StartTime:2024-07-06T11:04:29.509+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+11:04:42.132 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:04:42.132 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: Create a new user for Orange HRM 
+----------------------------------------------------------------------(src/test/resources/features/Multi_User_Creation.feature; Create a new user for Orange HRM
+11:05:00.296 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:05:03.575 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:05:04.856 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:05:06.550 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test0010
+11:05:16.688 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+11:05:19.284 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+11:05:24.389 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+11:05:24.391 [main] INFO  com.Orange.Utilities.CustomListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+TEST PASSED: Create a new user for Orange HRM 
+----------------------------------------------------------------------
+11:05:24.391 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:05:24.702 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:05:24.704 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:42, Result:PASSED, Feature:features/Multi_User_Creation.feature, StartTime:2024-07-06T11:04:42.122+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:null
+11:05:24.718 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:05:24.718 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: Create a new user for Orange HRM 
+----------------------------------------------------------------------(src/test/resources/features/Multi_User_Creation.feature; Create a new user for Orange HRM
+11:05:39.632 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:05:43.210 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:05:44.736 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:05:46.696 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test0011
+11:05:56.471 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+11:05:58.187 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+11:06:04.206 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+11:06:04.208 [main] INFO  com.Orange.Utilities.CustomListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+TEST PASSED: Create a new user for Orange HRM 
+----------------------------------------------------------------------
+11:06:04.208 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:06:04.669 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:06:04.670 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:39, Result:PASSED, Feature:features/Multi_User_Creation.feature, StartTime:2024-07-06T11:05:24.715+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:null
+11:06:04.692 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:06:04.692 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: Create a new user for Orange HRM 
+----------------------------------------------------------------------(src/test/resources/features/UserOperation.feature; Create a new user for Orange HRM
+11:06:23.883 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:06:27.945 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:06:29.350 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:06:30.470 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test011
+11:06:40.106 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+11:06:41.980 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+11:06:46.917 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+11:06:46.918 [main] INFO  com.Orange.Utilities.CustomListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+TEST PASSED: Create a new user for Orange HRM 
+----------------------------------------------------------------------
+11:06:46.918 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:06:47.268 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:06:47.269 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:42, Result:PASSED, Feature:features/UserOperation.feature, StartTime:2024-07-06T11:06:04.682+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:null
+11:06:47.278 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:06:47.279 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: A view the newly created user 
+----------------------------------------------------------------------(src/test/resources/features/UserOperation.feature; A view the newly created user
+11:06:59.891 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:07:03.490 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:07:04.859 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:07:05.970 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User is found and fetching details...
+11:07:05.982 [main] INFO  com.Orange.StepDefinitions.CommonSteps - searched/fetched user details
+11:07:08.164 [main] INFO  com.Orange.StepDefinitions.CommonSteps - new user is verified with below details
+11:07:13.395 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+11:07:13.397 [main] INFO  com.Orange.Utilities.CustomListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+TEST PASSED: A view the newly created user 
+----------------------------------------------------------------------
+11:07:13.397 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:07:15.315 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:07:15.316 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:28, Result:PASSED, Feature:features/UserOperation.feature, StartTime:2024-07-06T11:06:47.277+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:null
+11:07:15.328 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:07:15.328 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: Modify the newly created user 
+----------------------------------------------------------------------(src/test/resources/features/UserOperation.feature; Modify the newly created user
+11:07:24.618 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:07:27.449 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:07:28.703 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:07:29.714 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User is found and fetching details...
+11:07:29.725 [main] INFO  com.Orange.StepDefinitions.CommonSteps - searched/fetched user details
+11:07:32.293 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Edit option
+11:07:35.316 [main] INFO  com.Orange.StepDefinitions.CommonSteps - user modified with below details
+11:07:36.909 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+11:07:41.841 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+11:07:41.847 [main] INFO  com.Orange.Utilities.CustomListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+TEST PASSED: Modify the newly created user 
+----------------------------------------------------------------------
+11:07:41.847 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:07:42.257 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:07:42.259 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:26, Result:PASSED, Feature:features/UserOperation.feature, StartTime:2024-07-06T11:07:15.327+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:null
+11:07:42.279 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+11:07:42.280 [main] INFO  com.Orange.Utilities.CustomListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+TEST STARTED: Delete the newly create user 
+----------------------------------------------------------------------(src/test/resources/features/UserOperation.feature; Delete the newly create user
+11:07:48.322 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+11:07:50.819 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+11:07:51.789 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+11:07:53.150 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User is found and fetching details...
+11:07:53.163 [main] INFO  com.Orange.StepDefinitions.CommonSteps - searched/fetched user details
+11:07:55.391 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Delete option
+11:07:57.529 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Confirmed with Yes, Delete
+11:07:57.957 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+11:08:03.116 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+11:08:03.119 [main] INFO  com.Orange.Utilities.CustomListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+TEST PASSED: Delete the newly create user 
+----------------------------------------------------------------------
+11:08:03.119 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+11:08:03.595 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+11:08:03.596 [main] INFO  com.Orange.Utilities.CustomListener - Test finished outcome:: Duration:21, Result:PASSED, Feature:features/UserOperation.feature, StartTime:2024-07-06T11:07:42.278+05:30[Asia/Calcutta], TestFailedStep:22, TestFailedStepLine:"Test009" login into the Application, FailureCause:null
+11:08:03.599 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Completed **********************
