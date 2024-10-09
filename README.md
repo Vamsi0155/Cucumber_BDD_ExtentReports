@@ -1,7 +1,18 @@
 # Cucumber BDD framework with Extent reports
 
 ## Overview
-This project uses Selenium, Cucumber BDD, and Extent Reports for automated testing.
+This repository contains a Cucumber BDD framework integrated with Extent Reports for testing web applications. The framework follows behavior-driven development principles, providing a clear and structured approach to writing test scenarios. OrangeHRM, a practice web application, is used as the subject of UI automation testing.
+### Key Features
+#### Cucumber BDD:
+- Enables writing human-readable test scenarios that bridge the gap between non-technical stakeholders and developers.
+#### Extent Reports:
+- Generates visually appealing and detailed test reports with screenshots, logs, and results.
+#### Page Object Model (POM):
+- Helps structure test code for maintainability and reusability.
+#### Data-Driven Testing:
+- Supports parameterized tests using external data sources for greater test coverage.
+#### Cross-Browser Support:
+- Tests can be executed on different browsers like Chrome, Firefox, etc.
 
 ## Prerequisites
 - Java 17 or higher
@@ -9,7 +20,7 @@ This project uses Selenium, Cucumber BDD, and Extent Reports for automated testi
 - Junit 5.0v or higher
 - Selenium 4.20v or higher
 - Cucumber 7.16v or higher
-- Extent 5.0v or higher
+- Extent-reports 5.0v or higher
 
 ## How to run form cmd line
 In the pom.xml, we have configured Extent reports and run the features by following different commands.
