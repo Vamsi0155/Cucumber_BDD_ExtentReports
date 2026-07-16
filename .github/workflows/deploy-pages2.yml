@@ -26,10 +26,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Rename Spark.html to index.html
+        run: |
+          cp "./reports/ExtentReports/Reports/Spark.html" "./reports/ExtentReports/Reports/index.html"
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./reports/ExtentReports/Reports/Spark.html
+          path: ./reports/ExtentReports/Reports
 
       - name: Deploy to GitHub Pages
         id: deployment
