@@ -29,7 +29,7 @@ jobs:
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./reports/extentReports/SparkReport 6-Jul-24 11-03-40/Reports/
+          path: ./reports/extentReports/SparkReport%6-Jul-24%11-03-40/Reports/
 
       - name: Deploy to GitHub Pages
         id: deployment
